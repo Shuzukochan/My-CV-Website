@@ -93,3 +93,7 @@ span::before {
 .references {
     margin-top: -0.2cm;
 }
+.italic {
+    margin-left: 0.3cm;
+    font-style: italic;
+}
