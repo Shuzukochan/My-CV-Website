@@ -1,0 +1,95 @@
+@page {
+    size: A4 portrait;
+    margin-top: 0;
+}
+body {
+    font-family: 'Times New Roman', Times, serif;
+    background-color: black;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    box-sizing: border-box;
+    font-size: 14.7px;
+}
+.resume {
+    background-color: white;
+    color: black;
+    width: 21cm;
+    height: 29.7cm;
+    padding-top: 1cm;    
+    padding-right: 1.3cm;  
+    padding-bottom: 1cm; 
+    padding-left: 1.3cm;   
+    box-sizing: border-box;
+}
+.heading {
+    display: flex;
+}
+.heading h1 {
+    text-align: left;
+    font-size: 17px;
+}
+.heading img {
+    width: 2cm;
+    height: 3cm;
+}
+.heading div {
+    margin-left: 0.8cm;
+    line-height: 0.1cm;
+}
+.section {
+    margin-top: -0.3cm;
+}
+.section h1 {
+    font-size: 17px;
+    border-bottom: 2px solid black;
+}
+.section p {
+    margin-top: -0.2cm;
+}
+.subheading {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -0.2cm;
+}
+.subheading1 {
+    display: flex;
+    justify-content: space-between;
+    margin-top: -0.35cm;
+}
+.left {
+    font-size: 16px;
+    font-weight: bold;
+}
+.right {
+    font-size: 13px;
+    font-style: italic;
+}
+span::before {
+    content: '• '; /* Thêm dấu chấm trước nội dung */
+    color: black; /* Màu sắc của dấu chấm */
+}
+.text {
+    margin-left: 0.3cm;
+}
+.item-list {
+    margin-top: -0.25cm;
+    list-style: none;
+    padding-left: 0;
+}
+.item-list li::before {
+    content: "• ";
+}
+.item-list1 {
+    margin-top: 0.05cm;
+    list-style: none;
+    padding-left: 0;
+}
+.item-list1 li::before {
+    content: "• ";
+}
+.references {
+    margin-top: -0.2cm;
+}
