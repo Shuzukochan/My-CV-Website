@@ -1,8 +1,4 @@
 @media print {
-    body{
-        width: 21cm;
-        height: 29.7cm;
-    } 
     .resume {
         width: 21cm;
         height: 29.7cm;
