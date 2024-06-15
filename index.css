@@ -14,7 +14,14 @@
         margin: 0; /* Xóa margin mặc định */
     }
 }
-
+@media (max-width: 768px) {
+    .resume {
+        width: 100vw; /* Chiều rộng đầy đủ của màn hình */
+        height: auto; /* Chiều cao tự động */
+        padding: 10px; /* Khoảng cách padding cố định */
+        box-sizing: border-box;
+    }
+}
 body {
     font-family: 'Times New Roman', Times, serif;
     background-color: black;
